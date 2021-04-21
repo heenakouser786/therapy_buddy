@@ -88,7 +88,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: crimson;
+    background: #253a54;
 }
 .navbar .max-width{
     display: flex;
@@ -221,10 +221,13 @@ section .title::after{
     width: 45%;
 }
 .about .about-content .left img{
-    height: 400px;
-    width: 400px;
-    object-fit: cover;
-    border-radius: 6px;
+    height: 180px;
+    width: auto;
+    margin-left: 30px;
+    /* object-fit: cover; */
+    border-radius: 12px;
+    margin-left: 10px;
+   
 }
 .about .about-content .right{
     width: 55%;
@@ -280,6 +283,7 @@ section .title::after{
     cursor: pointer;
     transition: all 0.3s ease;
 }
+
 .mood tracker .mood-content .card:hover{
     background: crimson;
 }
@@ -319,6 +323,18 @@ section .title::after{
 }
 .Self-help .Self-content .left p{
     text-align: justify;
+}
+
+ .emoji-padding{
+    display: flex; 
+    
+}
+.emoji-padding img{
+    padding: 2.8rem;
+    margin-left: 6.0rem;
+    display: flex;
+   
+    
 }
 .Self-help .Self-content .left a{
     display: inline-block;
@@ -419,6 +435,7 @@ section .title::after{
 }
 .teams .carousel .card:hover img{
     border-color: #fff;
+    
 }
 .owl-dots{
     text-align: center;
@@ -458,6 +475,7 @@ section .title::after{
 }
 .contact .contact-content .left p{
     text-align: justify;
+    padding-bottom: 5px;
 }
 .contact .contact-content .left .icons{
     margin: 10px 0;
@@ -525,6 +543,8 @@ section .title::after{
   display: block;
   width: 160px!important;
   height: 45px;
+  margin: auto;
+  
   outline: none;
   font-size: 18px;
   font-weight: 500;
@@ -546,6 +566,9 @@ footer{
     color: rgb(244, 242, 248);
     text-align: center;
 }
+.contact-padding{
+    margin-top: 30px;
+}
 footer span a{
     color: crimson;
     text-decoration: none;
@@ -558,8 +581,8 @@ footer span a:hover{
 /* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img{
-        height: 350px;
-        width: 350px;
+        height: 40px;
+        width: 20px;
     }
 }
 
