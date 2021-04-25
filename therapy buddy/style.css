@@ -327,6 +327,8 @@ section .title::after{
 
  .emoji-padding{
     display: flex; 
+    flex-direction: row;
+    
     
 }
 .emoji-padding img{
@@ -336,6 +338,8 @@ section .title::after{
    
     
 }
+
+
 .Self-help .Self-content .left a{
     display: inline-block;
     background: crimson;
@@ -396,7 +400,35 @@ section .title::after{
 }
 
 /* teams section styling */
-.teams .title::after{
+.teams h2 {
+    text-align: center;
+    font-size: 27px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.columnteams {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+
+
+  }
+  .columnteams img{
+      height: 200px;
+      width: 150px;
+  }
+  .columnteams h4{
+      margin-top: -60px;
+  }
+  
+  /* Clear floats after image containers */
+  .rowteams::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/* .teams .h2::after{
     content: "who with me";
 }
 .teams .carousel .card{
@@ -434,9 +466,9 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{
-    border-color: #fff;
+    border-color: #fff; */
     
-}
+/* } */
 .owl-dots{
     text-align: center;
     margin-top: 20px;
@@ -695,6 +727,9 @@ footer span a:hover{
     .right form .error-box{
        width: 150px;
     }
+    .emoji-padding {
+        flex-direction: column;
+  }
     .scroll-up-btn{
         right: 15px;
         bottom: 15px;
@@ -702,5 +737,7 @@ footer span a:hover{
         width: 35px;
         font-size: 23px;
         line-height: 38px;
+       
+          
     }
 }
