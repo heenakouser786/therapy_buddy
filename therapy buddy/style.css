@@ -417,9 +417,7 @@ section .title::after{
       height: 200px;
       width: 150px;
   }
-  .columnteams h4{
-      margin-top: -60px;
-  }
+  
   
   /* Clear floats after image containers */
   .rowteams::after {
