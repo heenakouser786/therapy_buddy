@@ -753,5 +753,9 @@ footer span a:hover{
        
           
     }
+div .iframeholder{
+        width: auto;
+        height: 350px;
+    }
     
 }
